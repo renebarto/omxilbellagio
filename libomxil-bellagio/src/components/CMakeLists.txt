@@ -1,0 +1,17 @@
+project(libomxbase.la)
+
+#add_subdirectory(ffmpeg)
+#add_subdirectory(filereader)
+add_subdirectory(audio_effects)
+#add_subdirectory(mad)
+add_subdirectory(alsa)
+#add_subdirectory(vorbis)
+add_subdirectory(fbdev)
+add_subdirectory(video_src)
+#add_subdirectory(parser3gp)
+add_subdirectory(camera)
+add_subdirectory(clocksrc)
+add_subdirectory(jpeg)
+#add_subdirectory(muxer)
+#add_subdirectory(xvideo)
+

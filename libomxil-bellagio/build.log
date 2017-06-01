@@ -1,0 +1,497 @@
+Making all in base
+make[1]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/base'
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_component.lo -MD -MP -MF .deps/libomxbase_la-omx_base_component.Tpo -c -o libomxbase_la-omx_base_component.lo `test -f 'omx_base_component.c' || echo './'`omx_base_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_component.lo -MD -MP -MF .deps/libomxbase_la-omx_base_component.Tpo -c omx_base_component.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_component.o
+omx_base_component.c: In function ‘omx_base_component_GetParameter’:
+omx_base_component.c:833:3: warning: case value ‘4278190083’ not in enumerated type ‘OMX_INDEXTYPE {aka enum OMX_INDEXTYPE}’ [-Wswitch]
+   case OMX_IndexVendorCompPropTunnelFlags:
+   ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_component.lo -MD -MP -MF .deps/libomxbase_la-omx_base_component.Tpo -c omx_base_component.c -o libomxbase_la-omx_base_component.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_component.Tpo .deps/libomxbase_la-omx_base_component.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_port.Tpo -c -o libomxbase_la-omx_base_port.lo `test -f 'omx_base_port.c' || echo './'`omx_base_port.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_port.Tpo -c omx_base_port.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_port.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_port.Tpo -c omx_base_port.c -o libomxbase_la-omx_base_port.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_port.Tpo .deps/libomxbase_la-omx_base_port.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_filter.lo -MD -MP -MF .deps/libomxbase_la-omx_base_filter.Tpo -c -o libomxbase_la-omx_base_filter.lo `test -f 'omx_base_filter.c' || echo './'`omx_base_filter.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_filter.lo -MD -MP -MF .deps/libomxbase_la-omx_base_filter.Tpo -c omx_base_filter.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_filter.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_filter.lo -MD -MP -MF .deps/libomxbase_la-omx_base_filter.Tpo -c omx_base_filter.c -o libomxbase_la-omx_base_filter.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_filter.Tpo .deps/libomxbase_la-omx_base_filter.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_sink.lo -MD -MP -MF .deps/libomxbase_la-omx_base_sink.Tpo -c -o libomxbase_la-omx_base_sink.lo `test -f 'omx_base_sink.c' || echo './'`omx_base_sink.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_sink.lo -MD -MP -MF .deps/libomxbase_la-omx_base_sink.Tpo -c omx_base_sink.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_sink.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_sink.lo -MD -MP -MF .deps/libomxbase_la-omx_base_sink.Tpo -c omx_base_sink.c -o libomxbase_la-omx_base_sink.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_sink.Tpo .deps/libomxbase_la-omx_base_sink.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_source.lo -MD -MP -MF .deps/libomxbase_la-omx_base_source.Tpo -c -o libomxbase_la-omx_base_source.lo `test -f 'omx_base_source.c' || echo './'`omx_base_source.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_source.lo -MD -MP -MF .deps/libomxbase_la-omx_base_source.Tpo -c omx_base_source.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_source.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_source.lo -MD -MP -MF .deps/libomxbase_la-omx_base_source.Tpo -c omx_base_source.c -o libomxbase_la-omx_base_source.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_source.Tpo .deps/libomxbase_la-omx_base_source.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_audio_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_audio_port.Tpo -c -o libomxbase_la-omx_base_audio_port.lo `test -f 'omx_base_audio_port.c' || echo './'`omx_base_audio_port.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_audio_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_audio_port.Tpo -c omx_base_audio_port.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_audio_port.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_audio_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_audio_port.Tpo -c omx_base_audio_port.c -o libomxbase_la-omx_base_audio_port.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_audio_port.Tpo .deps/libomxbase_la-omx_base_audio_port.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_video_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_video_port.Tpo -c -o libomxbase_la-omx_base_video_port.lo `test -f 'omx_base_video_port.c' || echo './'`omx_base_video_port.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_video_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_video_port.Tpo -c omx_base_video_port.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_video_port.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_video_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_video_port.Tpo -c omx_base_video_port.c -o libomxbase_la-omx_base_video_port.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_video_port.Tpo .deps/libomxbase_la-omx_base_video_port.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_image_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_image_port.Tpo -c -o libomxbase_la-omx_base_image_port.lo `test -f 'omx_base_image_port.c' || echo './'`omx_base_image_port.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_image_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_image_port.Tpo -c omx_base_image_port.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_image_port.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_image_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_image_port.Tpo -c omx_base_image_port.c -o libomxbase_la-omx_base_image_port.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_image_port.Tpo .deps/libomxbase_la-omx_base_image_port.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_clock_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_clock_port.Tpo -c -o libomxbase_la-omx_base_clock_port.lo `test -f 'omx_base_clock_port.c' || echo './'`omx_base_clock_port.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_clock_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_clock_port.Tpo -c omx_base_clock_port.c  -fPIC -DPIC -o .libs/libomxbase_la-omx_base_clock_port.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch -MT libomxbase_la-omx_base_clock_port.lo -MD -MP -MF .deps/libomxbase_la-omx_base_clock_port.Tpo -c omx_base_clock_port.c -o libomxbase_la-omx_base_clock_port.o >/dev/null 2>&1
+mv -f .deps/libomxbase_la-omx_base_clock_port.Tpo .deps/libomxbase_la-omx_base_clock_port.Plo
+/bin/bash ../../libtool  --tag=CC   --mode=link gcc -I../../include -I../../src -Werror -pthread -g -Wall -Wno-error=switch   -o libomxbase.la  libomxbase_la-omx_base_component.lo libomxbase_la-omx_base_port.lo libomxbase_la-omx_base_filter.lo libomxbase_la-omx_base_sink.lo libomxbase_la-omx_base_source.lo libomxbase_la-omx_base_audio_port.lo libomxbase_la-omx_base_video_port.lo libomxbase_la-omx_base_image_port.lo libomxbase_la-omx_base_clock_port.lo  -ldl  
+libtool: link: ar cru .libs/libomxbase.a .libs/libomxbase_la-omx_base_component.o .libs/libomxbase_la-omx_base_port.o .libs/libomxbase_la-omx_base_filter.o .libs/libomxbase_la-omx_base_sink.o .libs/libomxbase_la-omx_base_source.o .libs/libomxbase_la-omx_base_audio_port.o .libs/libomxbase_la-omx_base_video_port.o .libs/libomxbase_la-omx_base_image_port.o .libs/libomxbase_la-omx_base_clock_port.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomxbase.a
+libtool: link: ( cd ".libs" && rm -f "libomxbase.la" && ln -s "../libomxbase.la" "libomxbase.la" )
+make[1]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/base'
+Making all in .
+make[1]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src'
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-st_static_component_loader.lo -MD -MP -MF .deps/libomxil_bellagio_la-st_static_component_loader.Tpo -c -o libomxil_bellagio_la-st_static_component_loader.lo `test -f 'st_static_component_loader.c' || echo './'`st_static_component_loader.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-st_static_component_loader.lo -MD -MP -MF .deps/libomxil_bellagio_la-st_static_component_loader.Tpo -c st_static_component_loader.c  -fPIC -DPIC -o .libs/libomxil_bellagio_la-st_static_component_loader.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-st_static_component_loader.lo -MD -MP -MF .deps/libomxil_bellagio_la-st_static_component_loader.Tpo -c st_static_component_loader.c -o libomxil_bellagio_la-st_static_component_loader.o >/dev/null 2>&1
+mv -f .deps/libomxil_bellagio_la-st_static_component_loader.Tpo .deps/libomxil_bellagio_la-st_static_component_loader.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-omxcore.lo -MD -MP -MF .deps/libomxil_bellagio_la-omxcore.Tpo -c -o libomxil_bellagio_la-omxcore.lo `test -f 'omxcore.c' || echo './'`omxcore.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-omxcore.lo -MD -MP -MF .deps/libomxil_bellagio_la-omxcore.Tpo -c omxcore.c  -fPIC -DPIC -o .libs/libomxil_bellagio_la-omxcore.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-omxcore.lo -MD -MP -MF .deps/libomxil_bellagio_la-omxcore.Tpo -c omxcore.c -o libomxil_bellagio_la-omxcore.o >/dev/null 2>&1
+mv -f .deps/libomxil_bellagio_la-omxcore.Tpo .deps/libomxil_bellagio_la-omxcore.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-omx_create_loaders_linux.lo -MD -MP -MF .deps/libomxil_bellagio_la-omx_create_loaders_linux.Tpo -c -o libomxil_bellagio_la-omx_create_loaders_linux.lo `test -f 'omx_create_loaders_linux.c' || echo './'`omx_create_loaders_linux.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-omx_create_loaders_linux.lo -MD -MP -MF .deps/libomxil_bellagio_la-omx_create_loaders_linux.Tpo -c omx_create_loaders_linux.c  -fPIC -DPIC -o .libs/libomxil_bellagio_la-omx_create_loaders_linux.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-omx_create_loaders_linux.lo -MD -MP -MF .deps/libomxil_bellagio_la-omx_create_loaders_linux.Tpo -c omx_create_loaders_linux.c -o libomxil_bellagio_la-omx_create_loaders_linux.o >/dev/null 2>&1
+mv -f .deps/libomxil_bellagio_la-omx_create_loaders_linux.Tpo .deps/libomxil_bellagio_la-omx_create_loaders_linux.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-tsemaphore.lo -MD -MP -MF .deps/libomxil_bellagio_la-tsemaphore.Tpo -c -o libomxil_bellagio_la-tsemaphore.lo `test -f 'tsemaphore.c' || echo './'`tsemaphore.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-tsemaphore.lo -MD -MP -MF .deps/libomxil_bellagio_la-tsemaphore.Tpo -c tsemaphore.c  -fPIC -DPIC -o .libs/libomxil_bellagio_la-tsemaphore.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-tsemaphore.lo -MD -MP -MF .deps/libomxil_bellagio_la-tsemaphore.Tpo -c tsemaphore.c -o libomxil_bellagio_la-tsemaphore.o >/dev/null 2>&1
+mv -f .deps/libomxil_bellagio_la-tsemaphore.Tpo .deps/libomxil_bellagio_la-tsemaphore.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-queue.lo -MD -MP -MF .deps/libomxil_bellagio_la-queue.Tpo -c -o libomxil_bellagio_la-queue.lo `test -f 'queue.c' || echo './'`queue.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-queue.lo -MD -MP -MF .deps/libomxil_bellagio_la-queue.Tpo -c queue.c  -fPIC -DPIC -o .libs/libomxil_bellagio_la-queue.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-queue.lo -MD -MP -MF .deps/libomxil_bellagio_la-queue.Tpo -c queue.c -o libomxil_bellagio_la-queue.o >/dev/null 2>&1
+mv -f .deps/libomxil_bellagio_la-queue.Tpo .deps/libomxil_bellagio_la-queue.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-common.lo -MD -MP -MF .deps/libomxil_bellagio_la-common.Tpo -c -o libomxil_bellagio_la-common.lo `test -f 'common.c' || echo './'`common.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-common.lo -MD -MP -MF .deps/libomxil_bellagio_la-common.Tpo -c common.c  -fPIC -DPIC -o .libs/libomxil_bellagio_la-common.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-common.lo -MD -MP -MF .deps/libomxil_bellagio_la-common.Tpo -c common.c -o libomxil_bellagio_la-common.o >/dev/null 2>&1
+mv -f .deps/libomxil_bellagio_la-common.Tpo .deps/libomxil_bellagio_la-common.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-content_pipe_inet.lo -MD -MP -MF .deps/libomxil_bellagio_la-content_pipe_inet.Tpo -c -o libomxil_bellagio_la-content_pipe_inet.lo `test -f 'content_pipe_inet.c' || echo './'`content_pipe_inet.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-content_pipe_inet.lo -MD -MP -MF .deps/libomxil_bellagio_la-content_pipe_inet.Tpo -c content_pipe_inet.c  -fPIC -DPIC -o .libs/libomxil_bellagio_la-content_pipe_inet.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-content_pipe_inet.lo -MD -MP -MF .deps/libomxil_bellagio_la-content_pipe_inet.Tpo -c content_pipe_inet.c -o libomxil_bellagio_la-content_pipe_inet.o >/dev/null 2>&1
+mv -f .deps/libomxil_bellagio_la-content_pipe_inet.Tpo .deps/libomxil_bellagio_la-content_pipe_inet.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-content_pipe_file.lo -MD -MP -MF .deps/libomxil_bellagio_la-content_pipe_file.Tpo -c -o libomxil_bellagio_la-content_pipe_file.lo `test -f 'content_pipe_file.c' || echo './'`content_pipe_file.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-content_pipe_file.lo -MD -MP -MF .deps/libomxil_bellagio_la-content_pipe_file.Tpo -c content_pipe_file.c  -fPIC -DPIC -o .libs/libomxil_bellagio_la-content_pipe_file.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -MT libomxil_bellagio_la-content_pipe_file.lo -MD -MP -MF .deps/libomxil_bellagio_la-content_pipe_file.Tpo -c content_pipe_file.c -o libomxil_bellagio_la-content_pipe_file.o >/dev/null 2>&1
+mv -f .deps/libomxil_bellagio_la-content_pipe_file.Tpo .deps/libomxil_bellagio_la-content_pipe_file.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -I../include -I./base -DINSTALL_PATH_STR=\"/usr/local/lib/bellagio\" -Werror -pthread -g -Wall -version-info 0:0:0  -o libomxil-bellagio.la -rpath /usr/local/lib libomxil_bellagio_la-st_static_component_loader.lo libomxil_bellagio_la-omxcore.lo libomxil_bellagio_la-omx_create_loaders_linux.lo libomxil_bellagio_la-tsemaphore.lo libomxil_bellagio_la-queue.lo libomxil_bellagio_la-common.lo libomxil_bellagio_la-content_pipe_inet.lo libomxil_bellagio_la-content_pipe_file.lo base/libomxbase.la -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libomxil_bellagio_la-st_static_component_loader.o .libs/libomxil_bellagio_la-omxcore.o .libs/libomxil_bellagio_la-omx_create_loaders_linux.o .libs/libomxil_bellagio_la-tsemaphore.o .libs/libomxil_bellagio_la-queue.o .libs/libomxil_bellagio_la-common.o .libs/libomxil_bellagio_la-content_pipe_inet.o .libs/libomxil_bellagio_la-content_pipe_file.o  -Wl,--whole-archive base/.libs/libomxbase.a -Wl,--no-whole-archive  -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libomxil-bellagio.so.0 -o .libs/libomxil-bellagio.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libomxil-bellagio.so.0" && ln -s "libomxil-bellagio.so.0.0.0" "libomxil-bellagio.so.0")
+libtool: link: (cd ".libs" && rm -f "libomxil-bellagio.so" && ln -s "libomxil-bellagio.so.0.0.0" "libomxil-bellagio.so")
+libtool: link: (cd .libs/libomxil-bellagio.lax/libomxbase.a && ar x "/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/base/.libs/libomxbase.a")
+libtool: link: ar cru .libs/libomxil-bellagio.a  libomxil_bellagio_la-st_static_component_loader.o libomxil_bellagio_la-omxcore.o libomxil_bellagio_la-omx_create_loaders_linux.o libomxil_bellagio_la-tsemaphore.o libomxil_bellagio_la-queue.o libomxil_bellagio_la-common.o libomxil_bellagio_la-content_pipe_inet.o libomxil_bellagio_la-content_pipe_file.o  .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_audio_port.o .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_clock_port.o .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_component.o .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_filter.o .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_image_port.o .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_port.o .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_sink.o .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_source.o .libs/libomxil-bellagio.lax/libomxbase.a/libomxbase_la-omx_base_video_port.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomxil-bellagio.a
+libtool: link: rm -fr .libs/libomxil-bellagio.lax
+libtool: link: ( cd ".libs" && rm -f "libomxil-bellagio.la" && ln -s "../libomxil-bellagio.la" "libomxil-bellagio.la" )
+gcc -DHAVE_CONFIG_H -I. -I..    -DOMXILCOMPONENTSPATH=\"/usr/local/lib/bellagio/\" -I../include -lomxil-bellagio -Werror -pthread -g -Wall -MT omxregister_bellagio-omxregister.o -MD -MP -MF .deps/omxregister_bellagio-omxregister.Tpo -c -o omxregister_bellagio-omxregister.o `test -f 'omxregister.c' || echo './'`omxregister.c
+mv -f .deps/omxregister_bellagio-omxregister.Tpo .deps/omxregister_bellagio-omxregister.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -DOMXILCOMPONENTSPATH=\"/usr/local/lib/bellagio/\" -I../include -lomxil-bellagio -Werror -pthread -g -Wall -MT omxregister_bellagio-common.o -MD -MP -MF .deps/omxregister_bellagio-common.Tpo -c -o omxregister_bellagio-common.o `test -f 'common.c' || echo './'`common.c
+mv -f .deps/omxregister_bellagio-common.Tpo .deps/omxregister_bellagio-common.Po
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -DOMXILCOMPONENTSPATH=\"/usr/local/lib/bellagio/\" -I../include -lomxil-bellagio -Werror -pthread -g -Wall   -o omxregister-bellagio omxregister_bellagio-omxregister.o omxregister_bellagio-common.o  -ldl  
+libtool: link: gcc -DOMXILCOMPONENTSPATH=\"/usr/local/lib/bellagio/\" -I../include -Werror -pthread -g -Wall -o .libs/omxregister-bellagio omxregister_bellagio-omxregister.o omxregister_bellagio-common.o  /home/rene/workspace/omx/bellagio/libomxil-bellagio/src/.libs/libomxil-bellagio.so -ldl -pthread
+make[1]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src'
+Making all in components
+make[1]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components'
+Making all in audio_effects
+make[2]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/audio_effects'
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-omx_volume_component.lo -MD -MP -MF .deps/libomxaudio_effects_la-omx_volume_component.Tpo -c -o libomxaudio_effects_la-omx_volume_component.lo `test -f 'omx_volume_component.c' || echo './'`omx_volume_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-omx_volume_component.lo -MD -MP -MF .deps/libomxaudio_effects_la-omx_volume_component.Tpo -c omx_volume_component.c  -fPIC -DPIC -o .libs/libomxaudio_effects_la-omx_volume_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-omx_volume_component.lo -MD -MP -MF .deps/libomxaudio_effects_la-omx_volume_component.Tpo -c omx_volume_component.c -o libomxaudio_effects_la-omx_volume_component.o >/dev/null 2>&1
+mv -f .deps/libomxaudio_effects_la-omx_volume_component.Tpo .deps/libomxaudio_effects_la-omx_volume_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-omx_audiomixer_component.lo -MD -MP -MF .deps/libomxaudio_effects_la-omx_audiomixer_component.Tpo -c -o libomxaudio_effects_la-omx_audiomixer_component.lo `test -f 'omx_audiomixer_component.c' || echo './'`omx_audiomixer_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-omx_audiomixer_component.lo -MD -MP -MF .deps/libomxaudio_effects_la-omx_audiomixer_component.Tpo -c omx_audiomixer_component.c  -fPIC -DPIC -o .libs/libomxaudio_effects_la-omx_audiomixer_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-omx_audiomixer_component.lo -MD -MP -MF .deps/libomxaudio_effects_la-omx_audiomixer_component.Tpo -c omx_audiomixer_component.c -o libomxaudio_effects_la-omx_audiomixer_component.o >/dev/null 2>&1
+mv -f .deps/libomxaudio_effects_la-omx_audiomixer_component.Tpo .deps/libomxaudio_effects_la-omx_audiomixer_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-library_entry_point.lo -MD -MP -MF .deps/libomxaudio_effects_la-library_entry_point.Tpo -c -o libomxaudio_effects_la-library_entry_point.lo `test -f 'library_entry_point.c' || echo './'`library_entry_point.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-library_entry_point.lo -MD -MP -MF .deps/libomxaudio_effects_la-library_entry_point.Tpo -c library_entry_point.c  -fPIC -DPIC -o .libs/libomxaudio_effects_la-library_entry_point.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxaudio_effects_la-library_entry_point.lo -MD -MP -MF .deps/libomxaudio_effects_la-library_entry_point.Tpo -c library_entry_point.c -o libomxaudio_effects_la-library_entry_point.o >/dev/null 2>&1
+mv -f .deps/libomxaudio_effects_la-library_entry_point.Tpo .deps/libomxaudio_effects_la-library_entry_point.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=link gcc -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -module -avoid-version -no-undefined -as-needed  -o libomxaudio_effects.la -rpath /usr/local/lib/bellagio libomxaudio_effects_la-omx_volume_component.lo libomxaudio_effects_la-omx_audiomixer_component.lo libomxaudio_effects_la-library_entry_point.lo ../../../src/libomxil-bellagio.la -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libomxaudio_effects_la-omx_volume_component.o .libs/libomxaudio_effects_la-omx_audiomixer_component.o .libs/libomxaudio_effects_la-library_entry_point.o   -Wl,-rpath -Wl,/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/.libs ../../../src/.libs/libomxil-bellagio.so -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libomxaudio_effects.so -o .libs/libomxaudio_effects.so
+libtool: link: ar cru .libs/libomxaudio_effects.a  libomxaudio_effects_la-omx_volume_component.o libomxaudio_effects_la-omx_audiomixer_component.o libomxaudio_effects_la-library_entry_point.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomxaudio_effects.a
+libtool: link: ( cd ".libs" && rm -f "libomxaudio_effects.la" && ln -s "../libomxaudio_effects.la" "libomxaudio_effects.la" )
+make[2]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/audio_effects'
+Making all in alsa
+make[2]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/alsa'
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-omx_alsasink_component.lo -MD -MP -MF .deps/libomxalsa_la-omx_alsasink_component.Tpo -c -o libomxalsa_la-omx_alsasink_component.lo `test -f 'omx_alsasink_component.c' || echo './'`omx_alsasink_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-omx_alsasink_component.lo -MD -MP -MF .deps/libomxalsa_la-omx_alsasink_component.Tpo -c omx_alsasink_component.c  -fPIC -DPIC -o .libs/libomxalsa_la-omx_alsasink_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-omx_alsasink_component.lo -MD -MP -MF .deps/libomxalsa_la-omx_alsasink_component.Tpo -c omx_alsasink_component.c -o libomxalsa_la-omx_alsasink_component.o >/dev/null 2>&1
+mv -f .deps/libomxalsa_la-omx_alsasink_component.Tpo .deps/libomxalsa_la-omx_alsasink_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-omx_alsasrc_component.lo -MD -MP -MF .deps/libomxalsa_la-omx_alsasrc_component.Tpo -c -o libomxalsa_la-omx_alsasrc_component.lo `test -f 'omx_alsasrc_component.c' || echo './'`omx_alsasrc_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-omx_alsasrc_component.lo -MD -MP -MF .deps/libomxalsa_la-omx_alsasrc_component.Tpo -c omx_alsasrc_component.c  -fPIC -DPIC -o .libs/libomxalsa_la-omx_alsasrc_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-omx_alsasrc_component.lo -MD -MP -MF .deps/libomxalsa_la-omx_alsasrc_component.Tpo -c omx_alsasrc_component.c -o libomxalsa_la-omx_alsasrc_component.o >/dev/null 2>&1
+mv -f .deps/libomxalsa_la-omx_alsasrc_component.Tpo .deps/libomxalsa_la-omx_alsasrc_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-library_entry_point.lo -MD -MP -MF .deps/libomxalsa_la-library_entry_point.Tpo -c -o libomxalsa_la-library_entry_point.lo `test -f 'library_entry_point.c' || echo './'`library_entry_point.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-library_entry_point.lo -MD -MP -MF .deps/libomxalsa_la-library_entry_point.Tpo -c library_entry_point.c  -fPIC -DPIC -o .libs/libomxalsa_la-library_entry_point.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -MT libomxalsa_la-library_entry_point.lo -MD -MP -MF .deps/libomxalsa_la-library_entry_point.Tpo -c library_entry_point.c -o libomxalsa_la-library_entry_point.o >/dev/null 2>&1
+mv -f .deps/libomxalsa_la-library_entry_point.Tpo .deps/libomxalsa_la-library_entry_point.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=link gcc -I../../../include -I../../../src -I../../../src/base -I/usr/include/alsa -Werror -pthread -g -Wall -module -avoid-version -no-undefined -as-needed  -o libomxalsa.la -rpath /usr/local/lib/bellagio libomxalsa_la-omx_alsasink_component.lo libomxalsa_la-omx_alsasrc_component.lo libomxalsa_la-library_entry_point.lo ../../../src/libomxil-bellagio.la -lasound -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libomxalsa_la-omx_alsasink_component.o .libs/libomxalsa_la-omx_alsasrc_component.o .libs/libomxalsa_la-library_entry_point.o   -Wl,-rpath -Wl,/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/.libs ../../../src/.libs/libomxil-bellagio.so -lasound -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libomxalsa.so -o .libs/libomxalsa.so
+libtool: link: ar cru .libs/libomxalsa.a  libomxalsa_la-omx_alsasink_component.o libomxalsa_la-omx_alsasrc_component.o libomxalsa_la-library_entry_point.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomxalsa.a
+libtool: link: ( cd ".libs" && rm -f "libomxalsa.la" && ln -s "../libomxalsa.la" "libomxalsa.la" )
+make[2]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/alsa'
+Making all in fbdev
+make[2]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/fbdev'
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-omx_fbdev_sink_component.lo -MD -MP -MF .deps/libomxfbdev_la-omx_fbdev_sink_component.Tpo -c -o libomxfbdev_la-omx_fbdev_sink_component.lo `test -f 'omx_fbdev_sink_component.c' || echo './'`omx_fbdev_sink_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-omx_fbdev_sink_component.lo -MD -MP -MF .deps/libomxfbdev_la-omx_fbdev_sink_component.Tpo -c omx_fbdev_sink_component.c  -fPIC -DPIC -o .libs/libomxfbdev_la-omx_fbdev_sink_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-omx_fbdev_sink_component.lo -MD -MP -MF .deps/libomxfbdev_la-omx_fbdev_sink_component.Tpo -c omx_fbdev_sink_component.c -o libomxfbdev_la-omx_fbdev_sink_component.o >/dev/null 2>&1
+mv -f .deps/libomxfbdev_la-omx_fbdev_sink_component.Tpo .deps/libomxfbdev_la-omx_fbdev_sink_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-omx_video_scheduler_component.lo -MD -MP -MF .deps/libomxfbdev_la-omx_video_scheduler_component.Tpo -c -o libomxfbdev_la-omx_video_scheduler_component.lo `test -f 'omx_video_scheduler_component.c' || echo './'`omx_video_scheduler_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-omx_video_scheduler_component.lo -MD -MP -MF .deps/libomxfbdev_la-omx_video_scheduler_component.Tpo -c omx_video_scheduler_component.c  -fPIC -DPIC -o .libs/libomxfbdev_la-omx_video_scheduler_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-omx_video_scheduler_component.lo -MD -MP -MF .deps/libomxfbdev_la-omx_video_scheduler_component.Tpo -c omx_video_scheduler_component.c -o libomxfbdev_la-omx_video_scheduler_component.o >/dev/null 2>&1
+mv -f .deps/libomxfbdev_la-omx_video_scheduler_component.Tpo .deps/libomxfbdev_la-omx_video_scheduler_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-library_entry_point.lo -MD -MP -MF .deps/libomxfbdev_la-library_entry_point.Tpo -c -o libomxfbdev_la-library_entry_point.lo `test -f 'library_entry_point.c' || echo './'`library_entry_point.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-library_entry_point.lo -MD -MP -MF .deps/libomxfbdev_la-library_entry_point.Tpo -c library_entry_point.c  -fPIC -DPIC -o .libs/libomxfbdev_la-library_entry_point.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxfbdev_la-library_entry_point.lo -MD -MP -MF .deps/libomxfbdev_la-library_entry_point.Tpo -c library_entry_point.c -o libomxfbdev_la-library_entry_point.o >/dev/null 2>&1
+mv -f .deps/libomxfbdev_la-library_entry_point.Tpo .deps/libomxfbdev_la-library_entry_point.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=link gcc -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -module -avoid-version -no-undefined -as-needed  -o libomxfbdev.la -rpath /usr/local/lib/bellagio libomxfbdev_la-omx_fbdev_sink_component.lo libomxfbdev_la-omx_video_scheduler_component.lo libomxfbdev_la-library_entry_point.lo ../../../src/libomxil-bellagio.la -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libomxfbdev_la-omx_fbdev_sink_component.o .libs/libomxfbdev_la-omx_video_scheduler_component.o .libs/libomxfbdev_la-library_entry_point.o   -Wl,-rpath -Wl,/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/.libs ../../../src/.libs/libomxil-bellagio.so -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libomxfbdev.so -o .libs/libomxfbdev.so
+libtool: link: ar cru .libs/libomxfbdev.a  libomxfbdev_la-omx_fbdev_sink_component.o libomxfbdev_la-omx_video_scheduler_component.o libomxfbdev_la-library_entry_point.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomxfbdev.a
+libtool: link: ( cd ".libs" && rm -f "libomxfbdev.la" && ln -s "../libomxfbdev.la" "libomxfbdev.la" )
+make[2]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/fbdev'
+Making all in video_src
+make[2]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/video_src'
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -Wno-error=unused-but-set-variable -MT libomxvideosrc_la-omx_videosrc_component.lo -MD -MP -MF .deps/libomxvideosrc_la-omx_videosrc_component.Tpo -c -o libomxvideosrc_la-omx_videosrc_component.lo `test -f 'omx_videosrc_component.c' || echo './'`omx_videosrc_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -Wno-error=unused-but-set-variable -MT libomxvideosrc_la-omx_videosrc_component.lo -MD -MP -MF .deps/libomxvideosrc_la-omx_videosrc_component.Tpo -c omx_videosrc_component.c  -fPIC -DPIC -o .libs/libomxvideosrc_la-omx_videosrc_component.o
+omx_videosrc_component.c: In function ‘omx_videosrc_component_Destructor’:
+omx_videosrc_component.c:160:17: warning: variable ‘err’ set but not used [-Wunused-but-set-variable]
+   OMX_ERRORTYPE err = OMX_ErrorNone;  
+                 ^
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -Wno-error=unused-but-set-variable -MT libomxvideosrc_la-omx_videosrc_component.lo -MD -MP -MF .deps/libomxvideosrc_la-omx_videosrc_component.Tpo -c omx_videosrc_component.c -o libomxvideosrc_la-omx_videosrc_component.o >/dev/null 2>&1
+mv -f .deps/libomxvideosrc_la-omx_videosrc_component.Tpo .deps/libomxvideosrc_la-omx_videosrc_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -Wno-error=unused-but-set-variable -MT libomxvideosrc_la-library_entry_point.lo -MD -MP -MF .deps/libomxvideosrc_la-library_entry_point.Tpo -c -o libomxvideosrc_la-library_entry_point.lo `test -f 'library_entry_point.c' || echo './'`library_entry_point.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -Wno-error=unused-but-set-variable -MT libomxvideosrc_la-library_entry_point.lo -MD -MP -MF .deps/libomxvideosrc_la-library_entry_point.Tpo -c library_entry_point.c  -fPIC -DPIC -o .libs/libomxvideosrc_la-library_entry_point.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -Wno-error=unused-but-set-variable -MT libomxvideosrc_la-library_entry_point.lo -MD -MP -MF .deps/libomxvideosrc_la-library_entry_point.Tpo -c library_entry_point.c -o libomxvideosrc_la-library_entry_point.o >/dev/null 2>&1
+mv -f .deps/libomxvideosrc_la-library_entry_point.Tpo .deps/libomxvideosrc_la-library_entry_point.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=link gcc -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -Wno-error=unused-but-set-variable -module -avoid-version -no-undefined -as-needed  -o libomxvideosrc.la -rpath /usr/local/lib/bellagio libomxvideosrc_la-omx_videosrc_component.lo libomxvideosrc_la-library_entry_point.lo ../../../src/libomxil-bellagio.la -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libomxvideosrc_la-omx_videosrc_component.o .libs/libomxvideosrc_la-library_entry_point.o   -Wl,-rpath -Wl,/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/.libs ../../../src/.libs/libomxil-bellagio.so -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libomxvideosrc.so -o .libs/libomxvideosrc.so
+libtool: link: ar cru .libs/libomxvideosrc.a  libomxvideosrc_la-omx_videosrc_component.o libomxvideosrc_la-library_entry_point.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomxvideosrc.a
+libtool: link: ( cd ".libs" && rm -f "libomxvideosrc.la" && ln -s "../libomxvideosrc.la" "libomxvideosrc.la" )
+make[2]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/video_src'
+Making all in camera
+make[2]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/camera'
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxcamera_la-omx_camera_source_component.lo -MD -MP -MF .deps/libomxcamera_la-omx_camera_source_component.Tpo -c -o libomxcamera_la-omx_camera_source_component.lo `test -f 'omx_camera_source_component.c' || echo './'`omx_camera_source_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxcamera_la-omx_camera_source_component.lo -MD -MP -MF .deps/libomxcamera_la-omx_camera_source_component.Tpo -c omx_camera_source_component.c  -fPIC -DPIC -o .libs/libomxcamera_la-omx_camera_source_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxcamera_la-omx_camera_source_component.lo -MD -MP -MF .deps/libomxcamera_la-omx_camera_source_component.Tpo -c omx_camera_source_component.c -o libomxcamera_la-omx_camera_source_component.o >/dev/null 2>&1
+mv -f .deps/libomxcamera_la-omx_camera_source_component.Tpo .deps/libomxcamera_la-omx_camera_source_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxcamera_la-library_entry_point.lo -MD -MP -MF .deps/libomxcamera_la-library_entry_point.Tpo -c -o libomxcamera_la-library_entry_point.lo `test -f 'library_entry_point.c' || echo './'`library_entry_point.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxcamera_la-library_entry_point.lo -MD -MP -MF .deps/libomxcamera_la-library_entry_point.Tpo -c library_entry_point.c  -fPIC -DPIC -o .libs/libomxcamera_la-library_entry_point.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxcamera_la-library_entry_point.lo -MD -MP -MF .deps/libomxcamera_la-library_entry_point.Tpo -c library_entry_point.c -o libomxcamera_la-library_entry_point.o >/dev/null 2>&1
+mv -f .deps/libomxcamera_la-library_entry_point.Tpo .deps/libomxcamera_la-library_entry_point.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=link gcc -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -module -avoid-version -no-undefined -as-needed  -o libomxcamera.la -rpath /usr/local/lib/bellagio libomxcamera_la-omx_camera_source_component.lo libomxcamera_la-library_entry_point.lo ../../../src/libomxil-bellagio.la -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libomxcamera_la-omx_camera_source_component.o .libs/libomxcamera_la-library_entry_point.o   -Wl,-rpath -Wl,/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/.libs ../../../src/.libs/libomxil-bellagio.so -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libomxcamera.so -o .libs/libomxcamera.so
+libtool: link: ar cru .libs/libomxcamera.a  libomxcamera_la-omx_camera_source_component.o libomxcamera_la-library_entry_point.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomxcamera.a
+libtool: link: ( cd ".libs" && rm -f "libomxcamera.la" && ln -s "../libomxcamera.la" "libomxcamera.la" )
+make[2]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/camera'
+Making all in clocksrc
+make[2]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/clocksrc'
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..     -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxclocksrc_la-omx_clocksrc_component.lo -MD -MP -MF .deps/libomxclocksrc_la-omx_clocksrc_component.Tpo -c -o libomxclocksrc_la-omx_clocksrc_component.lo `test -f 'omx_clocksrc_component.c' || echo './'`omx_clocksrc_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxclocksrc_la-omx_clocksrc_component.lo -MD -MP -MF .deps/libomxclocksrc_la-omx_clocksrc_component.Tpo -c omx_clocksrc_component.c  -fPIC -DPIC -o .libs/libomxclocksrc_la-omx_clocksrc_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxclocksrc_la-omx_clocksrc_component.lo -MD -MP -MF .deps/libomxclocksrc_la-omx_clocksrc_component.Tpo -c omx_clocksrc_component.c -o libomxclocksrc_la-omx_clocksrc_component.o >/dev/null 2>&1
+mv -f .deps/libomxclocksrc_la-omx_clocksrc_component.Tpo .deps/libomxclocksrc_la-omx_clocksrc_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..     -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxclocksrc_la-library_entry_point.lo -MD -MP -MF .deps/libomxclocksrc_la-library_entry_point.Tpo -c -o libomxclocksrc_la-library_entry_point.lo `test -f 'library_entry_point.c' || echo './'`library_entry_point.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxclocksrc_la-library_entry_point.lo -MD -MP -MF .deps/libomxclocksrc_la-library_entry_point.Tpo -c library_entry_point.c  -fPIC -DPIC -o .libs/libomxclocksrc_la-library_entry_point.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -MT libomxclocksrc_la-library_entry_point.lo -MD -MP -MF .deps/libomxclocksrc_la-library_entry_point.Tpo -c library_entry_point.c -o libomxclocksrc_la-library_entry_point.o >/dev/null 2>&1
+mv -f .deps/libomxclocksrc_la-library_entry_point.Tpo .deps/libomxclocksrc_la-library_entry_point.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=link gcc  -I../../../include -I../../../src -I../../../src/base -Werror -pthread -g -Wall -module -avoid-version -no-undefined -as-needed  -o libomxclocksrc.la -rpath /usr/local/lib/bellagio libomxclocksrc_la-omx_clocksrc_component.lo libomxclocksrc_la-library_entry_point.lo ../../../src/libomxil-bellagio.la  -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libomxclocksrc_la-omx_clocksrc_component.o .libs/libomxclocksrc_la-library_entry_point.o   -Wl,-rpath -Wl,/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/.libs ../../../src/.libs/libomxil-bellagio.so -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libomxclocksrc.so -o .libs/libomxclocksrc.so
+libtool: link: ar cru .libs/libomxclocksrc.a  libomxclocksrc_la-omx_clocksrc_component.o libomxclocksrc_la-library_entry_point.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomxclocksrc.a
+libtool: link: ( cd ".libs" && rm -f "libomxclocksrc.la" && ln -s "../libomxclocksrc.la" "libomxclocksrc.la" )
+make[2]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/clocksrc'
+Making all in jpeg
+make[2]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/jpeg'
+Making all in libjpeg-6c
+make[3]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/jpeg/libjpeg-6c'
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcapimin.lo -MD -MP -MF .deps/jcapimin.Tpo -c -o jcapimin.lo jcapimin.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcapimin.lo -MD -MP -MF .deps/jcapimin.Tpo -c jcapimin.c  -fPIC -DPIC -o .libs/jcapimin.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcapimin.lo -MD -MP -MF .deps/jcapimin.Tpo -c jcapimin.c -o jcapimin.o >/dev/null 2>&1
+mv -f .deps/jcapimin.Tpo .deps/jcapimin.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcapistd.lo -MD -MP -MF .deps/jcapistd.Tpo -c -o jcapistd.lo jcapistd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcapistd.lo -MD -MP -MF .deps/jcapistd.Tpo -c jcapistd.c  -fPIC -DPIC -o .libs/jcapistd.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcapistd.lo -MD -MP -MF .deps/jcapistd.Tpo -c jcapistd.c -o jcapistd.o >/dev/null 2>&1
+mv -f .deps/jcapistd.Tpo .deps/jcapistd.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jccoefct.lo -MD -MP -MF .deps/jccoefct.Tpo -c -o jccoefct.lo jccoefct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jccoefct.lo -MD -MP -MF .deps/jccoefct.Tpo -c jccoefct.c  -fPIC -DPIC -o .libs/jccoefct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jccoefct.lo -MD -MP -MF .deps/jccoefct.Tpo -c jccoefct.c -o jccoefct.o >/dev/null 2>&1
+mv -f .deps/jccoefct.Tpo .deps/jccoefct.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jccolor.lo -MD -MP -MF .deps/jccolor.Tpo -c -o jccolor.lo jccolor.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jccolor.lo -MD -MP -MF .deps/jccolor.Tpo -c jccolor.c  -fPIC -DPIC -o .libs/jccolor.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jccolor.lo -MD -MP -MF .deps/jccolor.Tpo -c jccolor.c -o jccolor.o >/dev/null 2>&1
+mv -f .deps/jccolor.Tpo .deps/jccolor.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcdctmgr.lo -MD -MP -MF .deps/jcdctmgr.Tpo -c -o jcdctmgr.lo jcdctmgr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcdctmgr.lo -MD -MP -MF .deps/jcdctmgr.Tpo -c jcdctmgr.c  -fPIC -DPIC -o .libs/jcdctmgr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcdctmgr.lo -MD -MP -MF .deps/jcdctmgr.Tpo -c jcdctmgr.c -o jcdctmgr.o >/dev/null 2>&1
+mv -f .deps/jcdctmgr.Tpo .deps/jcdctmgr.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jchuff.lo -MD -MP -MF .deps/jchuff.Tpo -c -o jchuff.lo jchuff.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jchuff.lo -MD -MP -MF .deps/jchuff.Tpo -c jchuff.c  -fPIC -DPIC -o .libs/jchuff.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jchuff.lo -MD -MP -MF .deps/jchuff.Tpo -c jchuff.c -o jchuff.o >/dev/null 2>&1
+mv -f .deps/jchuff.Tpo .deps/jchuff.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcinit.lo -MD -MP -MF .deps/jcinit.Tpo -c -o jcinit.lo jcinit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcinit.lo -MD -MP -MF .deps/jcinit.Tpo -c jcinit.c  -fPIC -DPIC -o .libs/jcinit.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcinit.lo -MD -MP -MF .deps/jcinit.Tpo -c jcinit.c -o jcinit.o >/dev/null 2>&1
+mv -f .deps/jcinit.Tpo .deps/jcinit.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcmainct.lo -MD -MP -MF .deps/jcmainct.Tpo -c -o jcmainct.lo jcmainct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcmainct.lo -MD -MP -MF .deps/jcmainct.Tpo -c jcmainct.c  -fPIC -DPIC -o .libs/jcmainct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcmainct.lo -MD -MP -MF .deps/jcmainct.Tpo -c jcmainct.c -o jcmainct.o >/dev/null 2>&1
+mv -f .deps/jcmainct.Tpo .deps/jcmainct.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcmarker.lo -MD -MP -MF .deps/jcmarker.Tpo -c -o jcmarker.lo jcmarker.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcmarker.lo -MD -MP -MF .deps/jcmarker.Tpo -c jcmarker.c  -fPIC -DPIC -o .libs/jcmarker.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcmarker.lo -MD -MP -MF .deps/jcmarker.Tpo -c jcmarker.c -o jcmarker.o >/dev/null 2>&1
+mv -f .deps/jcmarker.Tpo .deps/jcmarker.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcmaster.lo -MD -MP -MF .deps/jcmaster.Tpo -c -o jcmaster.lo jcmaster.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcmaster.lo -MD -MP -MF .deps/jcmaster.Tpo -c jcmaster.c  -fPIC -DPIC -o .libs/jcmaster.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcmaster.lo -MD -MP -MF .deps/jcmaster.Tpo -c jcmaster.c -o jcmaster.o >/dev/null 2>&1
+mv -f .deps/jcmaster.Tpo .deps/jcmaster.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcomapi.lo -MD -MP -MF .deps/jcomapi.Tpo -c -o jcomapi.lo jcomapi.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcomapi.lo -MD -MP -MF .deps/jcomapi.Tpo -c jcomapi.c  -fPIC -DPIC -o .libs/jcomapi.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcomapi.lo -MD -MP -MF .deps/jcomapi.Tpo -c jcomapi.c -o jcomapi.o >/dev/null 2>&1
+mv -f .deps/jcomapi.Tpo .deps/jcomapi.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcparam.lo -MD -MP -MF .deps/jcparam.Tpo -c -o jcparam.lo jcparam.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcparam.lo -MD -MP -MF .deps/jcparam.Tpo -c jcparam.c  -fPIC -DPIC -o .libs/jcparam.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcparam.lo -MD -MP -MF .deps/jcparam.Tpo -c jcparam.c -o jcparam.o >/dev/null 2>&1
+mv -f .deps/jcparam.Tpo .deps/jcparam.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcprepct.lo -MD -MP -MF .deps/jcprepct.Tpo -c -o jcprepct.lo jcprepct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcprepct.lo -MD -MP -MF .deps/jcprepct.Tpo -c jcprepct.c  -fPIC -DPIC -o .libs/jcprepct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcprepct.lo -MD -MP -MF .deps/jcprepct.Tpo -c jcprepct.c -o jcprepct.o >/dev/null 2>&1
+mv -f .deps/jcprepct.Tpo .deps/jcprepct.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcsample.lo -MD -MP -MF .deps/jcsample.Tpo -c -o jcsample.lo jcsample.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcsample.lo -MD -MP -MF .deps/jcsample.Tpo -c jcsample.c  -fPIC -DPIC -o .libs/jcsample.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcsample.lo -MD -MP -MF .deps/jcsample.Tpo -c jcsample.c -o jcsample.o >/dev/null 2>&1
+mv -f .deps/jcsample.Tpo .deps/jcsample.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jctrans.lo -MD -MP -MF .deps/jctrans.Tpo -c -o jctrans.lo jctrans.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jctrans.lo -MD -MP -MF .deps/jctrans.Tpo -c jctrans.c  -fPIC -DPIC -o .libs/jctrans.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jctrans.lo -MD -MP -MF .deps/jctrans.Tpo -c jctrans.c -o jctrans.o >/dev/null 2>&1
+mv -f .deps/jctrans.Tpo .deps/jctrans.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdapimin.lo -MD -MP -MF .deps/jdapimin.Tpo -c -o jdapimin.lo jdapimin.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdapimin.lo -MD -MP -MF .deps/jdapimin.Tpo -c jdapimin.c  -fPIC -DPIC -o .libs/jdapimin.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdapimin.lo -MD -MP -MF .deps/jdapimin.Tpo -c jdapimin.c -o jdapimin.o >/dev/null 2>&1
+mv -f .deps/jdapimin.Tpo .deps/jdapimin.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdapistd.lo -MD -MP -MF .deps/jdapistd.Tpo -c -o jdapistd.lo jdapistd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdapistd.lo -MD -MP -MF .deps/jdapistd.Tpo -c jdapistd.c  -fPIC -DPIC -o .libs/jdapistd.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdapistd.lo -MD -MP -MF .deps/jdapistd.Tpo -c jdapistd.c -o jdapistd.o >/dev/null 2>&1
+mv -f .deps/jdapistd.Tpo .deps/jdapistd.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdatadst.lo -MD -MP -MF .deps/jdatadst.Tpo -c -o jdatadst.lo jdatadst.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdatadst.lo -MD -MP -MF .deps/jdatadst.Tpo -c jdatadst.c  -fPIC -DPIC -o .libs/jdatadst.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdatadst.lo -MD -MP -MF .deps/jdatadst.Tpo -c jdatadst.c -o jdatadst.o >/dev/null 2>&1
+mv -f .deps/jdatadst.Tpo .deps/jdatadst.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdatasrc.lo -MD -MP -MF .deps/jdatasrc.Tpo -c -o jdatasrc.lo jdatasrc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdatasrc.lo -MD -MP -MF .deps/jdatasrc.Tpo -c jdatasrc.c  -fPIC -DPIC -o .libs/jdatasrc.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdatasrc.lo -MD -MP -MF .deps/jdatasrc.Tpo -c jdatasrc.c -o jdatasrc.o >/dev/null 2>&1
+mv -f .deps/jdatasrc.Tpo .deps/jdatasrc.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdcoefct.lo -MD -MP -MF .deps/jdcoefct.Tpo -c -o jdcoefct.lo jdcoefct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdcoefct.lo -MD -MP -MF .deps/jdcoefct.Tpo -c jdcoefct.c  -fPIC -DPIC -o .libs/jdcoefct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdcoefct.lo -MD -MP -MF .deps/jdcoefct.Tpo -c jdcoefct.c -o jdcoefct.o >/dev/null 2>&1
+mv -f .deps/jdcoefct.Tpo .deps/jdcoefct.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdcolor.lo -MD -MP -MF .deps/jdcolor.Tpo -c -o jdcolor.lo jdcolor.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdcolor.lo -MD -MP -MF .deps/jdcolor.Tpo -c jdcolor.c  -fPIC -DPIC -o .libs/jdcolor.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdcolor.lo -MD -MP -MF .deps/jdcolor.Tpo -c jdcolor.c -o jdcolor.o >/dev/null 2>&1
+mv -f .deps/jdcolor.Tpo .deps/jdcolor.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jddctmgr.lo -MD -MP -MF .deps/jddctmgr.Tpo -c -o jddctmgr.lo jddctmgr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jddctmgr.lo -MD -MP -MF .deps/jddctmgr.Tpo -c jddctmgr.c  -fPIC -DPIC -o .libs/jddctmgr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jddctmgr.lo -MD -MP -MF .deps/jddctmgr.Tpo -c jddctmgr.c -o jddctmgr.o >/dev/null 2>&1
+mv -f .deps/jddctmgr.Tpo .deps/jddctmgr.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdhuff.lo -MD -MP -MF .deps/jdhuff.Tpo -c -o jdhuff.lo jdhuff.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdhuff.lo -MD -MP -MF .deps/jdhuff.Tpo -c jdhuff.c  -fPIC -DPIC -o .libs/jdhuff.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdhuff.lo -MD -MP -MF .deps/jdhuff.Tpo -c jdhuff.c -o jdhuff.o >/dev/null 2>&1
+mv -f .deps/jdhuff.Tpo .deps/jdhuff.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdinput.lo -MD -MP -MF .deps/jdinput.Tpo -c -o jdinput.lo jdinput.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdinput.lo -MD -MP -MF .deps/jdinput.Tpo -c jdinput.c  -fPIC -DPIC -o .libs/jdinput.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdinput.lo -MD -MP -MF .deps/jdinput.Tpo -c jdinput.c -o jdinput.o >/dev/null 2>&1
+mv -f .deps/jdinput.Tpo .deps/jdinput.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdmainct.lo -MD -MP -MF .deps/jdmainct.Tpo -c -o jdmainct.lo jdmainct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdmainct.lo -MD -MP -MF .deps/jdmainct.Tpo -c jdmainct.c  -fPIC -DPIC -o .libs/jdmainct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdmainct.lo -MD -MP -MF .deps/jdmainct.Tpo -c jdmainct.c -o jdmainct.o >/dev/null 2>&1
+mv -f .deps/jdmainct.Tpo .deps/jdmainct.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdmarker.lo -MD -MP -MF .deps/jdmarker.Tpo -c -o jdmarker.lo jdmarker.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdmarker.lo -MD -MP -MF .deps/jdmarker.Tpo -c jdmarker.c  -fPIC -DPIC -o .libs/jdmarker.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdmarker.lo -MD -MP -MF .deps/jdmarker.Tpo -c jdmarker.c -o jdmarker.o >/dev/null 2>&1
+mv -f .deps/jdmarker.Tpo .deps/jdmarker.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdmaster.lo -MD -MP -MF .deps/jdmaster.Tpo -c -o jdmaster.lo jdmaster.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdmaster.lo -MD -MP -MF .deps/jdmaster.Tpo -c jdmaster.c  -fPIC -DPIC -o .libs/jdmaster.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdmaster.lo -MD -MP -MF .deps/jdmaster.Tpo -c jdmaster.c -o jdmaster.o >/dev/null 2>&1
+mv -f .deps/jdmaster.Tpo .deps/jdmaster.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdmerge.lo -MD -MP -MF .deps/jdmerge.Tpo -c -o jdmerge.lo jdmerge.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdmerge.lo -MD -MP -MF .deps/jdmerge.Tpo -c jdmerge.c  -fPIC -DPIC -o .libs/jdmerge.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdmerge.lo -MD -MP -MF .deps/jdmerge.Tpo -c jdmerge.c -o jdmerge.o >/dev/null 2>&1
+mv -f .deps/jdmerge.Tpo .deps/jdmerge.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdpostct.lo -MD -MP -MF .deps/jdpostct.Tpo -c -o jdpostct.lo jdpostct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdpostct.lo -MD -MP -MF .deps/jdpostct.Tpo -c jdpostct.c  -fPIC -DPIC -o .libs/jdpostct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdpostct.lo -MD -MP -MF .deps/jdpostct.Tpo -c jdpostct.c -o jdpostct.o >/dev/null 2>&1
+mv -f .deps/jdpostct.Tpo .deps/jdpostct.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdsample.lo -MD -MP -MF .deps/jdsample.Tpo -c -o jdsample.lo jdsample.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdsample.lo -MD -MP -MF .deps/jdsample.Tpo -c jdsample.c  -fPIC -DPIC -o .libs/jdsample.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdsample.lo -MD -MP -MF .deps/jdsample.Tpo -c jdsample.c -o jdsample.o >/dev/null 2>&1
+mv -f .deps/jdsample.Tpo .deps/jdsample.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdtrans.lo -MD -MP -MF .deps/jdtrans.Tpo -c -o jdtrans.lo jdtrans.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdtrans.lo -MD -MP -MF .deps/jdtrans.Tpo -c jdtrans.c  -fPIC -DPIC -o .libs/jdtrans.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdtrans.lo -MD -MP -MF .deps/jdtrans.Tpo -c jdtrans.c -o jdtrans.o >/dev/null 2>&1
+mv -f .deps/jdtrans.Tpo .deps/jdtrans.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jerror.lo -MD -MP -MF .deps/jerror.Tpo -c -o jerror.lo jerror.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jerror.lo -MD -MP -MF .deps/jerror.Tpo -c jerror.c  -fPIC -DPIC -o .libs/jerror.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jerror.lo -MD -MP -MF .deps/jerror.Tpo -c jerror.c -o jerror.o >/dev/null 2>&1
+mv -f .deps/jerror.Tpo .deps/jerror.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jfdctflt.lo -MD -MP -MF .deps/jfdctflt.Tpo -c -o jfdctflt.lo jfdctflt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jfdctflt.lo -MD -MP -MF .deps/jfdctflt.Tpo -c jfdctflt.c  -fPIC -DPIC -o .libs/jfdctflt.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jfdctflt.lo -MD -MP -MF .deps/jfdctflt.Tpo -c jfdctflt.c -o jfdctflt.o >/dev/null 2>&1
+mv -f .deps/jfdctflt.Tpo .deps/jfdctflt.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jfdctfst.lo -MD -MP -MF .deps/jfdctfst.Tpo -c -o jfdctfst.lo jfdctfst.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jfdctfst.lo -MD -MP -MF .deps/jfdctfst.Tpo -c jfdctfst.c  -fPIC -DPIC -o .libs/jfdctfst.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jfdctfst.lo -MD -MP -MF .deps/jfdctfst.Tpo -c jfdctfst.c -o jfdctfst.o >/dev/null 2>&1
+mv -f .deps/jfdctfst.Tpo .deps/jfdctfst.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jfdctint.lo -MD -MP -MF .deps/jfdctint.Tpo -c -o jfdctint.lo jfdctint.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jfdctint.lo -MD -MP -MF .deps/jfdctint.Tpo -c jfdctint.c  -fPIC -DPIC -o .libs/jfdctint.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jfdctint.lo -MD -MP -MF .deps/jfdctint.Tpo -c jfdctint.c -o jfdctint.o >/dev/null 2>&1
+mv -f .deps/jfdctint.Tpo .deps/jfdctint.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jidctflt.lo -MD -MP -MF .deps/jidctflt.Tpo -c -o jidctflt.lo jidctflt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jidctflt.lo -MD -MP -MF .deps/jidctflt.Tpo -c jidctflt.c  -fPIC -DPIC -o .libs/jidctflt.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jidctflt.lo -MD -MP -MF .deps/jidctflt.Tpo -c jidctflt.c -o jidctflt.o >/dev/null 2>&1
+mv -f .deps/jidctflt.Tpo .deps/jidctflt.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jidctfst.lo -MD -MP -MF .deps/jidctfst.Tpo -c -o jidctfst.lo jidctfst.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jidctfst.lo -MD -MP -MF .deps/jidctfst.Tpo -c jidctfst.c  -fPIC -DPIC -o .libs/jidctfst.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jidctfst.lo -MD -MP -MF .deps/jidctfst.Tpo -c jidctfst.c -o jidctfst.o >/dev/null 2>&1
+mv -f .deps/jidctfst.Tpo .deps/jidctfst.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jidctint.lo -MD -MP -MF .deps/jidctint.Tpo -c -o jidctint.lo jidctint.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jidctint.lo -MD -MP -MF .deps/jidctint.Tpo -c jidctint.c  -fPIC -DPIC -o .libs/jidctint.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jidctint.lo -MD -MP -MF .deps/jidctint.Tpo -c jidctint.c -o jidctint.o >/dev/null 2>&1
+mv -f .deps/jidctint.Tpo .deps/jidctint.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jquant1.lo -MD -MP -MF .deps/jquant1.Tpo -c -o jquant1.lo jquant1.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jquant1.lo -MD -MP -MF .deps/jquant1.Tpo -c jquant1.c  -fPIC -DPIC -o .libs/jquant1.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jquant1.lo -MD -MP -MF .deps/jquant1.Tpo -c jquant1.c -o jquant1.o >/dev/null 2>&1
+mv -f .deps/jquant1.Tpo .deps/jquant1.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jquant2.lo -MD -MP -MF .deps/jquant2.Tpo -c -o jquant2.lo jquant2.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jquant2.lo -MD -MP -MF .deps/jquant2.Tpo -c jquant2.c  -fPIC -DPIC -o .libs/jquant2.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jquant2.lo -MD -MP -MF .deps/jquant2.Tpo -c jquant2.c -o jquant2.o >/dev/null 2>&1
+mv -f .deps/jquant2.Tpo .deps/jquant2.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jutils.lo -MD -MP -MF .deps/jutils.Tpo -c -o jutils.lo jutils.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jutils.lo -MD -MP -MF .deps/jutils.Tpo -c jutils.c  -fPIC -DPIC -o .libs/jutils.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jutils.lo -MD -MP -MF .deps/jutils.Tpo -c jutils.c -o jutils.o >/dev/null 2>&1
+mv -f .deps/jutils.Tpo .deps/jutils.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jmemmgr.lo -MD -MP -MF .deps/jmemmgr.Tpo -c -o jmemmgr.lo jmemmgr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jmemmgr.lo -MD -MP -MF .deps/jmemmgr.Tpo -c jmemmgr.c  -fPIC -DPIC -o .libs/jmemmgr.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jmemmgr.lo -MD -MP -MF .deps/jmemmgr.Tpo -c jmemmgr.c -o jmemmgr.o >/dev/null 2>&1
+mv -f .deps/jmemmgr.Tpo .deps/jmemmgr.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jaricom.lo -MD -MP -MF .deps/jaricom.Tpo -c -o jaricom.lo jaricom.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jaricom.lo -MD -MP -MF .deps/jaricom.Tpo -c jaricom.c  -fPIC -DPIC -o .libs/jaricom.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jaricom.lo -MD -MP -MF .deps/jaricom.Tpo -c jaricom.c -o jaricom.o >/dev/null 2>&1
+mv -f .deps/jaricom.Tpo .deps/jaricom.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jcarith.lo -MD -MP -MF .deps/jcarith.Tpo -c -o jcarith.lo jcarith.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcarith.lo -MD -MP -MF .deps/jcarith.Tpo -c jcarith.c  -fPIC -DPIC -o .libs/jcarith.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jcarith.lo -MD -MP -MF .deps/jcarith.Tpo -c jcarith.c -o jcarith.o >/dev/null 2>&1
+mv -f .deps/jcarith.Tpo .deps/jcarith.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jdarith.lo -MD -MP -MF .deps/jdarith.Tpo -c -o jdarith.lo jdarith.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdarith.lo -MD -MP -MF .deps/jdarith.Tpo -c jdarith.c  -fPIC -DPIC -o .libs/jdarith.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jdarith.lo -MD -MP -MF .deps/jdarith.Tpo -c jdarith.c -o jdarith.o >/dev/null 2>&1
+mv -f .deps/jdarith.Tpo .deps/jdarith.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jmemansi.lo -MD -MP -MF .deps/jmemansi.Tpo -c -o jmemansi.lo jmemansi.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jmemansi.lo -MD -MP -MF .deps/jmemansi.Tpo -c jmemansi.c  -fPIC -DPIC -o .libs/jmemansi.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../.. -Werror -pthread -g -Wall -MT jmemansi.lo -MD -MP -MF .deps/jmemansi.Tpo -c jmemansi.c -o jmemansi.o >/dev/null 2>&1
+mv -f .deps/jmemansi.Tpo .deps/jmemansi.Plo
+/bin/bash ../../../../libtool  --tag=CC   --mode=link gcc  -Werror -pthread -g -Wall   -o libjpeg.la -rpath /usr/local/lib jcapimin.lo jcapistd.lo jccoefct.lo jccolor.lo jcdctmgr.lo jchuff.lo jcinit.lo jcmainct.lo jcmarker.lo jcmaster.lo jcomapi.lo jcparam.lo jcprepct.lo jcsample.lo jctrans.lo jdapimin.lo jdapistd.lo jdatadst.lo jdatasrc.lo jdcoefct.lo jdcolor.lo jddctmgr.lo jdhuff.lo jdinput.lo jdmainct.lo jdmarker.lo jdmaster.lo jdmerge.lo jdpostct.lo jdsample.lo jdtrans.lo jerror.lo jfdctflt.lo jfdctfst.lo jfdctint.lo jidctflt.lo jidctfst.lo jidctint.lo jquant1.lo jquant2.lo jutils.lo jmemmgr.lo jaricom.lo jcarith.lo jdarith.lo jmemansi.lo  -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/jcapimin.o .libs/jcapistd.o .libs/jccoefct.o .libs/jccolor.o .libs/jcdctmgr.o .libs/jchuff.o .libs/jcinit.o .libs/jcmainct.o .libs/jcmarker.o .libs/jcmaster.o .libs/jcomapi.o .libs/jcparam.o .libs/jcprepct.o .libs/jcsample.o .libs/jctrans.o .libs/jdapimin.o .libs/jdapistd.o .libs/jdatadst.o .libs/jdatasrc.o .libs/jdcoefct.o .libs/jdcolor.o .libs/jddctmgr.o .libs/jdhuff.o .libs/jdinput.o .libs/jdmainct.o .libs/jdmarker.o .libs/jdmaster.o .libs/jdmerge.o .libs/jdpostct.o .libs/jdsample.o .libs/jdtrans.o .libs/jerror.o .libs/jfdctflt.o .libs/jfdctfst.o .libs/jfdctint.o .libs/jidctflt.o .libs/jidctfst.o .libs/jidctint.o .libs/jquant1.o .libs/jquant2.o .libs/jutils.o .libs/jmemmgr.o .libs/jaricom.o .libs/jcarith.o .libs/jdarith.o .libs/jmemansi.o   -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libjpeg.so.0 -o .libs/libjpeg.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libjpeg.so.0" && ln -s "libjpeg.so.0.0.0" "libjpeg.so.0")
+libtool: link: (cd ".libs" && rm -f "libjpeg.so" && ln -s "libjpeg.so.0.0.0" "libjpeg.so")
+libtool: link: ar cru .libs/libjpeg.a  jcapimin.o jcapistd.o jccoefct.o jccolor.o jcdctmgr.o jchuff.o jcinit.o jcmainct.o jcmarker.o jcmaster.o jcomapi.o jcparam.o jcprepct.o jcsample.o jctrans.o jdapimin.o jdapistd.o jdatadst.o jdatasrc.o jdcoefct.o jdcolor.o jddctmgr.o jdhuff.o jdinput.o jdmainct.o jdmarker.o jdmaster.o jdmerge.o jdpostct.o jdsample.o jdtrans.o jerror.o jfdctflt.o jfdctfst.o jfdctint.o jidctflt.o jidctfst.o jidctint.o jquant1.o jquant2.o jutils.o jmemmgr.o jaricom.o jcarith.o jdarith.o jmemansi.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libjpeg.a
+libtool: link: ( cd ".libs" && rm -f "libjpeg.la" && ln -s "../libjpeg.la" "libjpeg.la" )
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT cjpeg.o -MD -MP -MF .deps/cjpeg.Tpo -c -o cjpeg.o cjpeg.c
+mv -f .deps/cjpeg.Tpo .deps/cjpeg.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT rdppm.o -MD -MP -MF .deps/rdppm.Tpo -c -o rdppm.o rdppm.c
+mv -f .deps/rdppm.Tpo .deps/rdppm.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT rdgif.o -MD -MP -MF .deps/rdgif.Tpo -c -o rdgif.o rdgif.c
+mv -f .deps/rdgif.Tpo .deps/rdgif.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT rdtarga.o -MD -MP -MF .deps/rdtarga.Tpo -c -o rdtarga.o rdtarga.c
+mv -f .deps/rdtarga.Tpo .deps/rdtarga.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT rdbmp.o -MD -MP -MF .deps/rdbmp.Tpo -c -o rdbmp.o rdbmp.c
+mv -f .deps/rdbmp.Tpo .deps/rdbmp.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT rdrle.o -MD -MP -MF .deps/rdrle.Tpo -c -o rdrle.o rdrle.c
+mv -f .deps/rdrle.Tpo .deps/rdrle.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT rdswitch.o -MD -MP -MF .deps/rdswitch.Tpo -c -o rdswitch.o rdswitch.c
+mv -f .deps/rdswitch.Tpo .deps/rdswitch.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT cdjpeg.o -MD -MP -MF .deps/cdjpeg.Tpo -c -o cdjpeg.o cdjpeg.c
+mv -f .deps/cdjpeg.Tpo .deps/cdjpeg.Po
+/bin/bash ../../../../libtool  --tag=CC   --mode=link gcc  -Werror -pthread -g -Wall   -o cjpeg cjpeg.o rdppm.o rdgif.o rdtarga.o rdbmp.o rdrle.o rdswitch.o cdjpeg.o libjpeg.la -ldl  
+libtool: link: gcc -Werror -pthread -g -Wall -o .libs/cjpeg cjpeg.o rdppm.o rdgif.o rdtarga.o rdbmp.o rdrle.o rdswitch.o cdjpeg.o  ./.libs/libjpeg.so -ldl -pthread
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT djpeg.o -MD -MP -MF .deps/djpeg.Tpo -c -o djpeg.o djpeg.c
+mv -f .deps/djpeg.Tpo .deps/djpeg.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT wrppm.o -MD -MP -MF .deps/wrppm.Tpo -c -o wrppm.o wrppm.c
+mv -f .deps/wrppm.Tpo .deps/wrppm.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT wrgif.o -MD -MP -MF .deps/wrgif.Tpo -c -o wrgif.o wrgif.c
+mv -f .deps/wrgif.Tpo .deps/wrgif.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT wrtarga.o -MD -MP -MF .deps/wrtarga.Tpo -c -o wrtarga.o wrtarga.c
+mv -f .deps/wrtarga.Tpo .deps/wrtarga.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT wrbmp.o -MD -MP -MF .deps/wrbmp.Tpo -c -o wrbmp.o wrbmp.c
+mv -f .deps/wrbmp.Tpo .deps/wrbmp.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT wrrle.o -MD -MP -MF .deps/wrrle.Tpo -c -o wrrle.o wrrle.c
+mv -f .deps/wrrle.Tpo .deps/wrrle.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT rdcolmap.o -MD -MP -MF .deps/rdcolmap.Tpo -c -o rdcolmap.o rdcolmap.c
+mv -f .deps/rdcolmap.Tpo .deps/rdcolmap.Po
+/bin/bash ../../../../libtool  --tag=CC   --mode=link gcc  -Werror -pthread -g -Wall   -o djpeg djpeg.o wrppm.o wrgif.o wrtarga.o wrbmp.o wrrle.o rdcolmap.o cdjpeg.o libjpeg.la -ldl  
+libtool: link: gcc -Werror -pthread -g -Wall -o .libs/djpeg djpeg.o wrppm.o wrgif.o wrtarga.o wrbmp.o wrrle.o rdcolmap.o cdjpeg.o  ./.libs/libjpeg.so -ldl -pthread
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT jpegtran.o -MD -MP -MF .deps/jpegtran.Tpo -c -o jpegtran.o jpegtran.c
+mv -f .deps/jpegtran.Tpo .deps/jpegtran.Po
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT transupp.o -MD -MP -MF .deps/transupp.Tpo -c -o transupp.o transupp.c
+mv -f .deps/transupp.Tpo .deps/transupp.Po
+/bin/bash ../../../../libtool  --tag=CC   --mode=link gcc  -Werror -pthread -g -Wall   -o jpegtran jpegtran.o transupp.o cdjpeg.o rdswitch.o libjpeg.la -ldl  
+libtool: link: gcc -Werror -pthread -g -Wall -o .libs/jpegtran jpegtran.o transupp.o cdjpeg.o rdswitch.o  ./.libs/libjpeg.so -ldl -pthread
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT rdjpgcom.o -MD -MP -MF .deps/rdjpgcom.Tpo -c -o rdjpgcom.o rdjpgcom.c
+mv -f .deps/rdjpgcom.Tpo .deps/rdjpgcom.Po
+/bin/bash ../../../../libtool  --tag=CC   --mode=link gcc  -Werror -pthread -g -Wall   -o rdjpgcom rdjpgcom.o  -ldl  
+libtool: link: gcc -Werror -pthread -g -Wall -o rdjpgcom rdjpgcom.o  -ldl -pthread
+gcc -DHAVE_CONFIG_H -I. -I../../../..     -Werror -pthread -g -Wall -MT wrjpgcom.o -MD -MP -MF .deps/wrjpgcom.Tpo -c -o wrjpgcom.o wrjpgcom.c
+mv -f .deps/wrjpgcom.Tpo .deps/wrjpgcom.Po
+/bin/bash ../../../../libtool  --tag=CC   --mode=link gcc  -Werror -pthread -g -Wall   -o wrjpgcom wrjpgcom.o  -ldl  
+libtool: link: gcc -Werror -pthread -g -Wall -o wrjpgcom wrjpgcom.o  -ldl -pthread
+make[3]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/jpeg/libjpeg-6c'
+make[3]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/jpeg'
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c  -Werror -pthread -g -Wall -MT libomximagejpeg_la-omx_jpegdec_component.lo -MD -MP -MF .deps/libomximagejpeg_la-omx_jpegdec_component.Tpo -c -o libomximagejpeg_la-omx_jpegdec_component.lo `test -f 'omx_jpegdec_component.c' || echo './'`omx_jpegdec_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-omx_jpegdec_component.lo -MD -MP -MF .deps/libomximagejpeg_la-omx_jpegdec_component.Tpo -c omx_jpegdec_component.c  -fPIC -DPIC -o .libs/libomximagejpeg_la-omx_jpegdec_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-omx_jpegdec_component.lo -MD -MP -MF .deps/libomximagejpeg_la-omx_jpegdec_component.Tpo -c omx_jpegdec_component.c -o libomximagejpeg_la-omx_jpegdec_component.o >/dev/null 2>&1
+mv -f .deps/libomximagejpeg_la-omx_jpegdec_component.Tpo .deps/libomximagejpeg_la-omx_jpegdec_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c  -Werror -pthread -g -Wall -MT libomximagejpeg_la-omx_jpegenc_component.lo -MD -MP -MF .deps/libomximagejpeg_la-omx_jpegenc_component.Tpo -c -o libomximagejpeg_la-omx_jpegenc_component.lo `test -f 'omx_jpegenc_component.c' || echo './'`omx_jpegenc_component.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-omx_jpegenc_component.lo -MD -MP -MF .deps/libomximagejpeg_la-omx_jpegenc_component.Tpo -c omx_jpegenc_component.c  -fPIC -DPIC -o .libs/libomximagejpeg_la-omx_jpegenc_component.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-omx_jpegenc_component.lo -MD -MP -MF .deps/libomximagejpeg_la-omx_jpegenc_component.Tpo -c omx_jpegenc_component.c -o libomximagejpeg_la-omx_jpegenc_component.o >/dev/null 2>&1
+mv -f .deps/libomximagejpeg_la-omx_jpegenc_component.Tpo .deps/libomximagejpeg_la-omx_jpegenc_component.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c  -Werror -pthread -g -Wall -MT libomximagejpeg_la-library_entry_point.lo -MD -MP -MF .deps/libomximagejpeg_la-library_entry_point.Tpo -c -o libomximagejpeg_la-library_entry_point.lo `test -f 'library_entry_point.c' || echo './'`library_entry_point.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-library_entry_point.lo -MD -MP -MF .deps/libomximagejpeg_la-library_entry_point.Tpo -c library_entry_point.c  -fPIC -DPIC -o .libs/libomximagejpeg_la-library_entry_point.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-library_entry_point.lo -MD -MP -MF .deps/libomximagejpeg_la-library_entry_point.Tpo -c library_entry_point.c -o libomximagejpeg_la-library_entry_point.o >/dev/null 2>&1
+mv -f .deps/libomximagejpeg_la-library_entry_point.Tpo .deps/libomximagejpeg_la-library_entry_point.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c  -Werror -pthread -g -Wall -MT libomximagejpeg_la-wrbmp.lo -MD -MP -MF .deps/libomximagejpeg_la-wrbmp.Tpo -c -o libomximagejpeg_la-wrbmp.lo `test -f 'wrbmp.c' || echo './'`wrbmp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-wrbmp.lo -MD -MP -MF .deps/libomximagejpeg_la-wrbmp.Tpo -c wrbmp.c  -fPIC -DPIC -o .libs/libomximagejpeg_la-wrbmp.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-wrbmp.lo -MD -MP -MF .deps/libomximagejpeg_la-wrbmp.Tpo -c wrbmp.c -o libomximagejpeg_la-wrbmp.o >/dev/null 2>&1
+mv -f .deps/libomximagejpeg_la-wrbmp.Tpo .deps/libomximagejpeg_la-wrbmp.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../..    -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c  -Werror -pthread -g -Wall -MT libomximagejpeg_la-rdbmp.lo -MD -MP -MF .deps/libomximagejpeg_la-rdbmp.Tpo -c -o libomximagejpeg_la-rdbmp.lo `test -f 'rdbmp.c' || echo './'`rdbmp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-rdbmp.lo -MD -MP -MF .deps/libomximagejpeg_la-rdbmp.Tpo -c rdbmp.c  -fPIC -DPIC -o .libs/libomximagejpeg_la-rdbmp.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c -Werror -pthread -g -Wall -MT libomximagejpeg_la-rdbmp.lo -MD -MP -MF .deps/libomximagejpeg_la-rdbmp.Tpo -c rdbmp.c -o libomximagejpeg_la-rdbmp.o >/dev/null 2>&1
+mv -f .deps/libomximagejpeg_la-rdbmp.Tpo .deps/libomximagejpeg_la-rdbmp.Plo
+/bin/bash ../../../libtool  --tag=CC   --mode=link gcc -I../../../include -I../../../src -I../../../src/base -I./libjpeg-6c  -Werror -pthread -g -Wall -module -avoid-version -no-undefined -as-needed  -o libomximagejpeg.la -rpath /usr/local/lib/bellagio libomximagejpeg_la-omx_jpegdec_component.lo libomximagejpeg_la-omx_jpegenc_component.lo libomximagejpeg_la-library_entry_point.lo libomximagejpeg_la-wrbmp.lo libomximagejpeg_la-rdbmp.lo ../../../src/libomxil-bellagio.la libjpeg-6c/libjpeg.la -ldl  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libomximagejpeg_la-omx_jpegdec_component.o .libs/libomximagejpeg_la-omx_jpegenc_component.o .libs/libomximagejpeg_la-library_entry_point.o .libs/libomximagejpeg_la-wrbmp.o .libs/libomximagejpeg_la-rdbmp.o   -Wl,-rpath -Wl,/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/.libs -Wl,-rpath -Wl,/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/jpeg/libjpeg-6c/.libs ../../../src/.libs/libomxil-bellagio.so libjpeg-6c/.libs/libjpeg.so -ldl  -pthread -g   -pthread -Wl,-soname -Wl,libomximagejpeg.so -o .libs/libomximagejpeg.so
+libtool: link: ar cru .libs/libomximagejpeg.a  libomximagejpeg_la-omx_jpegdec_component.o libomximagejpeg_la-omx_jpegenc_component.o libomximagejpeg_la-library_entry_point.o libomximagejpeg_la-wrbmp.o libomximagejpeg_la-rdbmp.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libomximagejpeg.a
+libtool: link: ( cd ".libs" && rm -f "libomximagejpeg.la" && ln -s "../libomximagejpeg.la" "libomximagejpeg.la" )
+make[3]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/jpeg'
+make[2]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components/jpeg'
+make[2]: Entering directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components'
+make[1]: Leaving directory '/home/rene/workspace/omx/bellagio/libomxil-bellagio/src/components'
